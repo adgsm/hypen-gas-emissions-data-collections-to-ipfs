@@ -1,0 +1,21 @@
+{
+	"name": "Hypen_API_to_CO2_storage",
+	"version": "0.0.1",
+	"description": "Onboarding CO2 and CH4 data from Hypen's API onto IPFS / co2.storage",
+	"type": "module",
+	"author": {
+		"name": "Momcilo Dzunic",
+		"email": "momcilo.dzunic@protocol.ai"
+	},
+	"devDependencies": {
+		"env-cmd": "^10.1.0"
+	},
+	"scripts": {
+		"add_template": "env-cmd node src/add_template.js",
+		"add_asset": "env-cmd node src/add_asset.js"
+	},
+	"dependencies": {
+		"@co2-storage/js-api": "^1.1.37",
+		"axios": "^1.3.4"
+	}
+}

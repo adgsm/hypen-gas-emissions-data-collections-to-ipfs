@@ -15,7 +15,7 @@
 		"add_asset": "env-cmd node src/add_asset.js"
 	},
 	"dependencies": {
-		"@co2-storage/js-api": "^1.1.37",
+		"@co2-storage/js-api": "^1.1.38",
 		"axios": "^1.3.4"
 	}
 }
